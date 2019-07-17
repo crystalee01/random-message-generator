@@ -1,0 +1,75 @@
+body {
+  background-image: url("rmg 1.jpg");
+  /* folder pathway 'assets' removed */
+  background-repeat: no-repeat;
+  background-size: 1400px 1000px;
+  opacity: 8.0;
+}
+.textDiv{
+  background-color: white;
+  width: 70%;
+  height: 100px;
+  padding: 20px;
+  margin: auto; /*centers div on screen horizontally, must define width */
+  display: flex;
+  justify-content: center;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#titleline1{
+  font-family: 'DM Serif Display', serif;
+  font-size: 250%;
+  padding: 5px;
+}
+#titleline2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 275%;
+  color: white;
+  padding: 5px;
+}
+p{
+  font-family: 'Lato', sans-serif;
+  justify-content: center;
+}
+.buttonDiv{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+button{
+  display: block;
+  margin: 15px;
+  padding: 12px 18px;
+  border-width: 2px;
+  border-color: black;
+  color: white;
+  background-color: black;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+button:hover{
+  background-color: white;
+  color: black;
+}
+/* media queries */
+@media screen and (max-width: 1024px){
+
+}
+@media screen and (max-width: 620px){
+nav{
+  flex-direction: column;
+}
+#titleline1{
+  margin-bottom: -5px;
+}
+#titleline2{
+  margin-top: -5px;
+}
+}
